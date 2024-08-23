@@ -1,0 +1,39 @@
+{
+	"menu_id" : "xkcd_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "xkcd_menu_title",
+	"description" : "xkcd_menu_desc",
+	"back_callback" : "xkcd_callback_save",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "mode",
+			"title" : "mode_title",
+			"description" : "mode_desc",
+			"callback" : "xkcd_callback",
+			"value" : "mode",
+
+			"default_value" : 3,
+			"items" : [
+				"only_stealthcivs",
+				"only_stealth",
+				"loud_civs",
+				"only_civs",
+				"always"
+			]
+		},
+		{
+			"type" : "slider",
+			"id" : "duration",
+			"title" : "duration_title",
+			"description" : "duration_desc",
+			"callback" : "xkcd_callback",
+			"value" : "duration",
+
+			"default_value" : 3,
+			"max" : 10,
+			"min" : 0,
+			"step" : 0.5
+		}
+	]
+}

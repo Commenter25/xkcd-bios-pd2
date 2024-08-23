@@ -1,0 +1,25 @@
+{
+	"name" : "XKCD Bio Snippets",
+	"description" : "Adds bio snippets when killing NPCs, like xkcd 873",
+	"author" : "Commenter25, Subsimple, Randall Munroe",
+	"contact" : "https://commenter.cc",
+	"version" : "1.0.0",
+	"color" : "104 117 139",
+	"image" : "icon.png",
+	"hooks" : [
+		{
+			"hook_id" : "lib/units/enemies/cop/copdamage",
+			"script_path" : "xkcd.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "settings.lua"
+		}
+	]
+	"updates" : [
+		{
+			"identifier" : "xkcd-bios",
+			"host": { "meta": "https://raw.githubusercontent.com/Commenter25/xkcd-bios-pd2/main/.github/meta.json" }
+		}
+	]
+}

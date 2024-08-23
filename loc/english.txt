@@ -1,0 +1,15 @@
+{
+	"xkcd_menu_title" : "XKCD Bio Snippets",
+	"xkcd_menu_desc" : "Configure bio snippets shown when killing NPCs",
+
+	"mode_title" : "Mode",
+	"mode_desc" : "When to display bio snippets\nDefault is Stealth + Loud Civs",
+	"only_stealthcivs" : "Stealth Civs Only",
+	"only_stealth" : "Stealth Only",
+	"loud_civs" : "Stealth + Loud Civs",
+	"only_civs" : "Civilians Only",
+	"always" : "Always",
+
+	"duration_title" : "Duration",
+	"duration_desc" : "Seconds to keep displaying bio snippets\nDefault is 3, true to the comic",
+}

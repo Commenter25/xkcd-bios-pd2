@@ -1,0 +1,57 @@
+name: Bug report
+description: Tell me, tell me, tell me your problems
+labels: ["type: bug"]
+assignees: ["Commenter25"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for creating a report! Please be sure to add a short and simple title above, with no tagging like [BUG]."
+
+  - type: dropdown
+    id: mods
+    attributes:
+      label: How many mods were enabled when you tried this?
+      description: |
+        If you don't understand, please disable all your mods except XKCD Bios, and test the problem again.
+        If doing that stops the problem, gradually enable mods until the issue reappears, then mention the last addon enabled later in the report.
+      options:
+        - I did not disable my mods before reporting this bug
+        - A specific addon(s) that causes the problem
+        - Nothing except XKCD Bios itself
+    validations:
+      required: true
+
+  - type: dropdown
+    id: system
+    attributes:
+      label: Which operating system were you using?
+      description: |
+        If you don't understand, go to https://whatsmyos.com and look at the top.
+        If you've tested multiple, pick the higher one on the list.
+      options:
+        - Windows
+        - Linux through Proton
+        - Something else (specify later)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: "What version are you running?"
+      placeholder: "1.0.0, 1.0.2, 1.2.0, etc"
+    validations:
+      required: true
+
+  - type: textarea
+    id: whathappened
+    attributes:
+      label: What happened?
+      description: |
+        Please provide a clear and concise description of what the bug is.
+        You may want to give steps detailing how to make the problem appear.
+        Add any other context or screenshots that may be helpful.
+      placeholder: Say what you see!
+    validations:
+      required: true
