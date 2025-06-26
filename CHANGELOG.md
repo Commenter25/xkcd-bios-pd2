@@ -4,6 +4,10 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/), and 
 
 Past versions will link to their respective commit. Current versions will not due to temporal paradoxes.
 
+## 2025-06-26 - 1.0.2
+### Fixed:
+	- Crashes on certain enemy types
+
 ## 2024-08-23 - [1.0.1](https://github.com/Commenter25/xkcd-bios-pd2/tree/1.0.1)
 Identical code, package release was uploaded incorrectly
 

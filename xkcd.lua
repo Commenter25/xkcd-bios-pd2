@@ -172,8 +172,10 @@ function CopDamage:_comment_death(attacker, victim, special_comment)
 	local loud = not managers.groupai:state():whisper_mode()
 	if mode < 3 and loud then return end
 
-
+	-- victim validation
+	if not victim or not victim:base() return end
 	local victim = victim:base()._char_tweak
+	if not victim or not victim.tags return end
 
 	-- check if civilian
 	local enemy = true
