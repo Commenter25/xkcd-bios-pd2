@@ -1,8 +1,8 @@
 [
 	{
 		"ident": "xkcd-bios",
-		"version": "1.0.2",
+		"version": "1.0.3",
 		"patchnotes_url": "https://github.com/Commenter25/xkcd-bios-pd2/blob/main/CHANGELOG.md",
-		"download_url": "https://github.com/Commenter25/xkcd-bios-pd2/releases/download/1.0.2/xkcd-bios.zip"
+		"download_url": "https://github.com/Commenter25/xkcd-bios-pd2/releases/download/1.0.3/xkcd-bios.zip"
 	}
 ]

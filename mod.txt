@@ -3,7 +3,7 @@
 	"description" : "Adds bio snippets when killing NPCs, like xkcd 873",
 	"author" : "Commenter25, Subsimple, Randall Munroe",
 	"contact" : "https://commenter.cc",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"color" : "104 117 139",
 	"image" : "icon.png",
 	"hooks" : [
